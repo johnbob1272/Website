@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CompSci
-permalink: /compsci/
+title: Mathematics
+permalink: /math/
 ---
 
 This Is Under Construction
