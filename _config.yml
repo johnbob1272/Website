@@ -23,7 +23,7 @@ email: jonas.valdez23@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This webiste was created to teach people how to begin coding.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://johnbob1272.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://johnbob1272.github.io/Website" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  johnbob1272
 
 # Build settings
