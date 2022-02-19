@@ -41,7 +41,7 @@ collections:
 collections:
   lessons:
     output: true
-    permalink: Website/:collection/:categories/:title
+    permalink: /Website/:collection/:categories/:title
 
 
 # Exclude from processing.
