@@ -1,0 +1,20 @@
+---
+layout: page
+---
+<nav>
+    <ul>
+        {% for lesson in site.lessons %}
+            {% assign first = true%}
+            
+            {% if lesson.category == page.slug %}
+                {% if first == true%}
+                    {% assign first = false %}
+                    {% assign lessonContent = lesson.content %}
+                {% endif %}
+                <li><a href="{{ site.baseurl }}{{ lesson.url }}">{{ lesson.title }}</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</nav>
+
+{{ lessonContent }}

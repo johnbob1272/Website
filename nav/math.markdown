@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: select
+category: math
 title: Mathematics
 permalink: /math/
 ---
-
-This Is Under Construction
-
-List of Links:
-- Here
-- Here

@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<ul>
+    {% for course in site.courses %}
+        {% if course.category == page.category and course.title != page.title %}
+            <li><a href="{{ site.baseurl }}{{ course.url }}">{{ course.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+</ul>
